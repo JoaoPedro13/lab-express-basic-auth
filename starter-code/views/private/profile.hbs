@@ -1,0 +1,12 @@
+{{#with user}}
+  {{#if user}}
+    <h2>{{name}}'s Profile Page</h2>
+   {{else}}
+    <h2>{{username}}'s Profile Page</h2>
+
+  {{/if}}
+
+<h3>ID: {{id}}</h3>
+<br>
+<a href="/profile/edit">Edit your Profile</a>
+{{/with}}
